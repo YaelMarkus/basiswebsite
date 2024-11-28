@@ -3,6 +3,7 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;  
+  margin: 0;
 }
 
 
@@ -17,6 +18,8 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	--color-header-background: #273148;
+	--navbar-background-blur: 20px;
 }
 
 
@@ -29,3 +32,32 @@
 
 /* jouw code */
 
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+header{
+	background-color: var(--color-header-background);
+	margin: auto;
+	backdrop-filter: blur(var(--navbar-background-blur));
+	
+
+}
+
+
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1em;
+	list-style: none;
+
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
