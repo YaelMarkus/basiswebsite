@@ -20,7 +20,14 @@
 	--color-text: #111;
 	--color-background: #eee;
 	--color-header-background: #273148;
+	--color-navbar-blizzard: #00aeff;
+	--color-navbar-icon: #ffffff;
+	--color-slide-text: #ffffff;
+
+	--fontsize-slide-text: 2em;
+
 	--navbar-background-blur: 20px;
+	
 }
 
 

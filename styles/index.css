@@ -3,4 +3,103 @@
 *::before {
 	box-sizing: border-box;
 	margin: 0;
+	padding: 0;
 }
+
+header {
+	background-color: var(--color-header-background);
+	backdrop-filter: blur(var(--navbar-background-blur));
+	position: fixed;
+	width: 100%;
+}
+
+nav ul  {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .75em 1em;
+	
+}
+
+nav ul li a{
+	text-decoration: none;
+	
+}
+
+section {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	padding-top: 3.75em;
+}
+
+section ul {
+	display: flex;
+	overflow-x: auto;
+  	scroll-snap-type: x mandatory;
+  	scroll-behavior: smooth;
+	gap: 0;
+	width: 100%;
+	height: 90vh;
+}
+
+section ul li {
+	flex-shrink: 0;
+  	width: 100vw;
+  	height: 100vh;
+  	display: flex;
+	flex-direction: column;
+  	text-align: center;
+  	scroll-snap-align: center;
+   }
+
+section ul li:nth-child(1) {
+	background-image: url("/images/blackFridayLogo.webp");
+	background-size: cover;
+	background-position: center;
+}
+
+section ul li:nth-child(2) {
+	background-image: url("/images/warcraftBackground.webp");
+	background-size: cover;
+	background-position: center;
+}
+
+section ul li:nth-child(3) {
+	background-image: url("/images/overwatchBackground.webp");
+	background-size: cover;
+	background-position: center;
+}
+
+section ul li:nth-child(4) {
+	background-image: url("/images/warcraftRumbleBackground.webp");
+	background-size: cover;
+	background-position: center;
+}
+
+section ul li:nth-child(5) {
+	background-image: url("/images/diabloBackground.webp");
+	background-size: cover;
+	background-position: center;
+}
+
+section ul li:nth-child(6) {
+	background-image: url("/images/heartstoneBackground.webp");
+	background-size: cover;
+	background-position: center;
+}
+
+   section ul li img { 
+	grid-area: 1 / 1 / 3 / 2;
+	width: 272px;
+	max-width: 100%;
+	height: 93px;
+  }
+  section ul li p { grid-area: 3 / 1 / 4 / 2; }
+  section ul li h3 { grid-area: 4 / 1 / 5 / 2; }
+  
+  section ul li p {
+	color: var(--color-slide-text);
+	font-size: var(--fontsize-slide-text);
+  }
