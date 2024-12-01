@@ -19,14 +19,20 @@
 	/* startje */
 	--color-text: #ffffff;
 	--color-background: #eee;
-	--color-header-background: #273148;
+	--color-header-background: #282d43cc;
 	--color-navbar-blizzard: #00aeff;
 	--color-navbar-icon: #ffffff;
 	--color-slide-button: #009dff;
 	--color-body-background: #131928;
+	--color-filter-background: #d0e9ff33;
+
+
+	--navbar-blur: 20px;
 
 	--fontsize-slide-heading: 1.875em;
 	--fontsize-slide-button: 1.25em;
+	--fontsize-filter: 1em;
+	--fontsize-heading: 1.5em;
 
 	--lineheight-slide-heading: 1.1em;
 
