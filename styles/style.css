@@ -17,16 +17,22 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text: #111;
+	--color-text: #ffffff;
 	--color-background: #eee;
 	--color-header-background: #273148;
 	--color-navbar-blizzard: #00aeff;
 	--color-navbar-icon: #ffffff;
-	--color-slide-text: #ffffff;
+	--color-slide-button: #009dff;
+	--color-body-background: #131928;
 
-	--fontsize-slide-text: 2em;
+	--fontsize-slide-heading: 1.875em;
+	--fontsize-slide-button: 1.25em;
 
-	--navbar-background-blur: 20px;
+	--lineheight-slide-heading: 1.1em;
+
+	--button-styling: 0 4px 8px rgba(0, 0, 0, 0.2);
+	--heading-styling: 0px 4px 8px rgba(0, 0, 0, 0.4);
+	--slide-styling: 0px 2px 10px rgba(0, 0, 0, 0.4);
 	
 }
 
@@ -40,3 +46,7 @@
 
 /* jouw code */
 
+@font-face {
+	font-family: 'poppins';
+	src: url(/fonts/Poppins-SemiBold.ttf);
+}
