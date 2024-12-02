@@ -33,6 +33,7 @@
 	--fontsize-slide-button: 1.25em;
 	--fontsize-filter: 1em;
 	--fontsize-heading: 1.5em;
+	--fontsize-badge: .75rem;
 
 	--lineheight-slide-heading: 1.1em;
 
@@ -55,4 +56,9 @@
 @font-face {
 	font-family: 'poppins';
 	src: url(/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: 'archivo';
+	src: url(/fonts/Archivo-SemiBold.ttf);
 }
